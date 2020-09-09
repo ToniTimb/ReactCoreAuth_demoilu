@@ -33,15 +33,6 @@
     <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="ẗiedostot\Päivä 3 - Erilaisia ohjelmointikieliä.pdf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="ẗiedostot\Päivä 3 - Erilaisia ohjelmointikieliä.pdf">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="Data\Migrations\" />
     <Folder Include="Migrations\" />
     <Folder Include="wwwroot\" />
